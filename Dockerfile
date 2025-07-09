@@ -16,7 +16,6 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-configure gd \
         --with-freetype \
         --with-jpeg \
-        --with-webp \
     && docker-php-ext-install -j$(nproc) \
         pdo_mysql \
         mbstring \
