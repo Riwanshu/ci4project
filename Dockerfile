@@ -11,10 +11,11 @@ WORKDIR /var/www/html
 COPY . .
 
 # Install dependencies
-RUN apt-get update && apt-get install -y unzip libzip-dev && \
-    docker-php-ext-install zip pdo pdo_mysql && \
+RUN apt-get update && apt-get install -y --no-install-recommends unzip libzip-dev && \
+    docker-php-ext-install zip pdo_mysql && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
-    composer install
+    composer install && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set Apache DocumentRoot to CodeIgniter's public folder
 RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
