@@ -1,0 +1,820 @@
+CRITICAL - 2025-07-05 15:07:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "head.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('head', [], true)
+ 3 APPPATH\Views\welcome_message.php(3): view('head')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\codeigniter4-framework-d021b04\\app\\Views\\welcome_message.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 15:07:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "head.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('head', [], true)
+ 3 APPPATH\Views\welcome_message.php(3): view('head')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\codeigniter4-framework-d021b04\\app\\Views\\welcome_message.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 15:07:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "head.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('head', [], true)
+ 3 APPPATH\Views\welcome_message.php(3): view('head')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\codeigniter4-framework-d021b04\\app\\Views\\welcome_message.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 15:07:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "head.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('head.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('head', [], true)
+ 3 APPPATH\Views\welcome_message.php(3): view('head')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\codeigniter4-framework-d021b04\\app\\Views\\welcome_message.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:25:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:25:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:25:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:25:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:27:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:27:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:27:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:27:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:29:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:29:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:30:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:30:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:30:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:30:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:30:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:30:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:31:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:31:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:31:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:31:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:31:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:31:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:31:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:31:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:32:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:32:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:32:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:32:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: index]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-05 17:32:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\codeigniter4-framework-d021b04\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\codeigniter4-framework-d021b04\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\codeigniter4-framework-d021b04\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\codeigniter4-framework-d021b04\app\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\codeigniter4-framework-d021b04\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\codeigniter4-framework-d021b04\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\codeigniter4-framework-d021b04\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-05 17:32:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:51:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product_detail.php"
+[Method: GET, Route: product-detail/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_detail.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product_detail', [], true)
+ 3 APPPATH\Controllers\Home.php(65): view('product_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetail('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:51:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product_detail.php"
+[Method: GET, Route: product-detail/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_detail.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product_detail', [], true)
+ 3 APPPATH\Controllers\Home.php(65): view('product_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetail('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-05 17:51:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product_detail.php"
+[Method: GET, Route: product-detail/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_detail.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product_detail', [], true)
+ 3 APPPATH\Controllers\Home.php(65): view('product_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetail('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
