@@ -9,7 +9,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        if ($response = $this->checkLogin()) return $response;
         $productModel = new ProductModel();
         $data['products'] = $productModel->findAll();
         return view('welcome_message', $data);
